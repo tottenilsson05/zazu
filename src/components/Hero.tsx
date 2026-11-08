@@ -15,10 +15,6 @@ export function Hero() {
       <div className="hero-cta">
         <LinkButtons size="lg" />
       </div>
-      <a href="#about" className="scroll-cue" aria-label="Scroll to about Zazu">
-        <span className="mouse" aria-hidden="true" />
-        scroll
-      </a>
     </section>
   );
 }
