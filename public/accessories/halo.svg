@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="110" viewBox="0 0 300 110">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset=".55" stop-color="#fff6b0" stop-opacity="0"/>
+      <stop offset=".78" stop-color="#ffe680" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffd23a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffbe0"/>
+      <stop offset=".5" stop-color="#ffd84a"/>
+      <stop offset="1" stop-color="#e2a10f"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="55" rx="148" ry="53" fill="url(#glow)"/>
+  <ellipse cx="150" cy="55" rx="112" ry="30" fill="none" stroke="url(#ring)" stroke-width="16"/>
+  <ellipse cx="150" cy="50" rx="104" ry="24" fill="none" stroke="#fffde8" stroke-width="3" opacity=".8"/>
+</svg>

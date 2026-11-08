@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="270" viewBox="0 0 200 270">
+  <defs>
+    <clipPath id="cone"><path d="M100 30 L182 236 C 130 256, 70 256, 18 236 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#cone)">
+    <rect x="0" y="0" width="200" height="270" fill="#1f6fff"/>
+    <path d="M-40 120 L240 60 L240 92 L-40 152 Z" fill="#ffd23a"/>
+    <path d="M-40 182 L240 122 L240 154 L-40 214 Z" fill="#ff3b8b"/>
+    <path d="M-40 244 L240 184 L240 216 L-40 276 Z" fill="#20c96b"/>
+    <g fill="#ffffff" opacity=".9"><circle cx="80" cy="100" r="5"/><circle cx="120" cy="150" r="5"/><circle cx="70" cy="200" r="5"/><circle cx="140" cy="210" r="4"/></g>
+  </g>
+  <path d="M100 30 L182 236 C 130 256, 70 256, 18 236 Z" fill="none" stroke="#0b1d5c" stroke-width="5" stroke-linejoin="round"/>
+  <g transform="translate(100 26)">
+    <circle r="22" fill="#ff3b8b" stroke="#7a0a3a" stroke-width="4"/>
+    <path d="M-8 -14 L-2 -24 M8 -14 L14 -22 M14 4 L24 8 M-14 6 L-24 10" stroke="#ffd23a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="Pump.fun">
+  <g transform="rotate(45 16 16)">
+    <clipPath id="pill"><rect x="9" y="1.5" width="14" height="29" rx="7"/></clipPath>
+    <g clip-path="url(#pill)">
+      <rect x="9" y="1.5" width="14" height="14.5" fill="#5fdc8a"/>
+      <rect x="9" y="16" width="14" height="14.5" fill="#ffffff"/>
+    </g>
+    <line x1="9" y1="16" x2="23" y2="16" stroke="#14301f" stroke-width="2"/>
+    <rect x="9" y="1.5" width="14" height="29" rx="7" fill="none" stroke="#14301f" stroke-width="2.2"/>
+    <path d="M12.6 5.4 C 12.6 4.6, 13.4 4, 14.2 4" stroke="#d6ffe4" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

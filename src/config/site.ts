@@ -1,0 +1,34 @@
+/**
+ * Site-wide configuration. Everything a non-developer may need to change
+ * lives here or in `.env` (see `.env.example`).
+ */
+
+/** Prefix for files in /public. Leave empty on Vercel. */
+export const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+export const A = (p: string) => `${BASE}${p}`;
+
+export const CONTRACT_ADDRESS =
+  process.env.NEXT_PUBLIC_ZAZU_CA || "2KVUyPJra7KD1ayYFDZh3ZumzNPw9xGzwogHky9Upump";
+
+export const TICKER = "$ZAZU";
+
+/**
+ * Set NEXT_PUBLIC_X_URL to the official account (e.g. https://x.com/zazu).
+ * Until then the X buttons open a live search for $ZAZU so no link is dead.
+ */
+const X_FALLBACK = "https://x.com/search?q=%24ZAZU&src=typed_query&f=live";
+
+export const LINKS = {
+  pump: process.env.NEXT_PUBLIC_PUMP_URL || `https://pump.fun/coin/${CONTRACT_ADDRESS}`,
+  dex: process.env.NEXT_PUBLIC_DEX_URL || `https://dexscreener.com/solana/${CONTRACT_ADDRESS}`,
+  x: process.env.NEXT_PUBLIC_X_URL || X_FALLBACK,
+  xIsConfigured: Boolean(process.env.NEXT_PUBLIC_X_URL),
+};
+
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://zazu.vercel.app";
+
+/** How often the token panel refreshes (ms). */
+export const TOKEN_REFRESH_MS = Number(process.env.NEXT_PUBLIC_TOKEN_REFRESH_MS || 10_000);
+
+/** Where the browser asks for market data. The default is this app's own API route. */
+export const TOKEN_ENDPOINT = process.env.NEXT_PUBLIC_TOKEN_ENDPOINT || "/api/token";
