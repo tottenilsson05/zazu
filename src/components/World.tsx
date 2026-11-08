@@ -95,7 +95,9 @@ export function World() {
       <div className="clouds far">{CLOUDS.filter((c) => c.layer === "far").map(cloud)}</div>
       <div className="clouds mid">{CLOUDS.filter((c) => c.layer === "mid").map(cloud)}</div>
       <div className="hills">
-        <Image src={A("/images/world/hills.webp")} alt="" fill priority sizes="300vw" quality={90} />
+        {/* served as-is: the 4344px original is already web-optimised and stays sharp on retina screens */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={A("/images/world/hills.webp")} alt="" decoding="async" fetchPriority="high" />
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img className="blurred" src={A("/images/world/hills-blur.webp")} alt="" decoding="async" />
       </div>
