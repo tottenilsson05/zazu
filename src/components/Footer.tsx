@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mini">
         <Image src={A("/images/zazu-pfp-400.png")} alt="" width={52} height={52} />
       </div>
-      <p className="line">zazu · zazu&apos;s little corner of the internet</p>
+      <p className="line">zazu&apos;s little corner of the internet</p>
       <div className="badges" aria-label="Links">
         <a className="badge88" style={{ background: "#5fdc8a", color: "#06220f" }} href={LINKS.pump} target="_blank" rel="noopener noreferrer">
           buy on
