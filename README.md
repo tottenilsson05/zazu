@@ -32,7 +32,7 @@ Vercel → Project → Settings → Environment Variables (see `.env.example`).
 
 | Variable | What it does | Default |
 | --- | --- | --- |
-| `NEXT_PUBLIC_X_URL` | Official X account for every X button | Live X search for `$ZAZU` (so no link is dead) |
+| `NEXT_PUBLIC_X_URL` | Official X account for every X button | `https://x.com/zazucatPF` |
 | `NEXT_PUBLIC_SITE_URL` | Your domain, used for link previews | `https://zazu.vercel.app` |
 | `NEXT_PUBLIC_ZAZU_CA` | Token contract address | `2KVUyPJra7KD1ayYFDZh3ZumzNPw9xGzwogHky9Upump` |
 | `NEXT_PUBLIC_PUMP_URL` | Pump.fun link | `https://pump.fun/coin/<CA>` |

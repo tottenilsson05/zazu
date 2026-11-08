@@ -12,17 +12,13 @@ export const CONTRACT_ADDRESS =
 
 export const TICKER = "$ZAZU";
 
-/**
- * Set NEXT_PUBLIC_X_URL to the official account (e.g. https://x.com/zazu).
- * Until then the X buttons open a live search for $ZAZU so no link is dead.
- */
-const X_FALLBACK = "https://x.com/search?q=%24ZAZU&src=typed_query&f=live";
+/** Official X account (can be overridden with NEXT_PUBLIC_X_URL). */
+const X_DEFAULT = "https://x.com/zazucatPF";
 
 export const LINKS = {
   pump: process.env.NEXT_PUBLIC_PUMP_URL || `https://pump.fun/coin/${CONTRACT_ADDRESS}`,
   dex: process.env.NEXT_PUBLIC_DEX_URL || `https://dexscreener.com/solana/${CONTRACT_ADDRESS}`,
-  x: process.env.NEXT_PUBLIC_X_URL || X_FALLBACK,
-  xIsConfigured: Boolean(process.env.NEXT_PUBLIC_X_URL),
+  x: process.env.NEXT_PUBLIC_X_URL || X_DEFAULT,
 };
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://zazu.vercel.app";
