@@ -40,7 +40,7 @@ export function Nav() {
   return (
     <nav className={`nav${scrolled ? " scrolled" : ""}`} aria-label="Main">
       <div className="nav-inner">
-        <a href="#home" className="nav-logo" aria-label="zuzu home" style={{ padding: 0 }}>
+        <a href="#home" className="nav-logo" aria-label="zazu home" style={{ padding: 0 }}>
           <Image src={A("/images/zazu-pfp-400.png")} alt="" width={28} height={28} />
         </a>
         {ITEMS.map((it) => (

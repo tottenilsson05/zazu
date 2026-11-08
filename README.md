@@ -1,4 +1,4 @@
-# zuzu — ZAZU ($ZAZU) website
+# zazu — ZAZU ($ZAZU) website
 
 Zazu's own little corner of the internet: a 2005-style homepage built with
 Next.js 15, TypeScript, Tailwind CSS 4 and Framer Motion, ready for Vercel.

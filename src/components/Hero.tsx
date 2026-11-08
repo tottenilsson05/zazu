@@ -6,7 +6,7 @@ const TITLE_COLORS = ["#ffd95a", "#7ee84a", "#ffffff", "#6fc2fa"];
 /** The hero is just words and links; the scene behind it is the shared <World />. */
 export function Hero() {
   return (
-    <section id="home" className="hero" aria-label="zuzu">
+    <section id="home" className="hero" aria-label="zazu">
       <div className="hero-words">
         <PixelTitle as="h1" text="ZAZU" colors={TITLE_COLORS} />
         <p className="tagline">the cat that has seen everything.</p>
