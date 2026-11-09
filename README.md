@@ -34,7 +34,7 @@ Vercel → Project → Settings → Environment Variables (see `.env.example`).
 | --- | --- | --- |
 | `NEXT_PUBLIC_X_URL` | Official X account for every X button | `https://x.com/zazucatPF` |
 | `NEXT_PUBLIC_SITE_URL` | Your domain, used for link previews | `https://zazu.vercel.app` |
-| `NEXT_PUBLIC_ZAZU_CA` | Token contract address | `9scezusCiewqDJgbPZNEuzGKUuQhsC9BE2XVRL1opump` |
+| `NEXT_PUBLIC_ZAZU_CA` | Token contract address | `4xKfdbKt6Yn43Hqo1Ei4Lo6k59arrfMPBsSkHRiqpump` |
 | `NEXT_PUBLIC_PUMP_URL` | Pump.fun link | `https://pump.fun/coin/<CA>` |
 | `NEXT_PUBLIC_DEX_URL` | Dexscreener link | `https://dexscreener.com/solana/<CA>` |
 | `NEXT_PUBLIC_TOKEN_REFRESH_MS` | Token panel refresh interval | `10000` |
