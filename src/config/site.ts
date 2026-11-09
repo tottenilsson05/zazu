@@ -8,7 +8,7 @@ export const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 export const A = (p: string) => `${BASE}${p}`;
 
 export const CONTRACT_ADDRESS =
-  process.env.NEXT_PUBLIC_ZAZU_CA || "4xKfdbKt6Yn43Hqo1Ei4Lo6k59arrfMPBsSkHRiqpump";
+  process.env.NEXT_PUBLIC_ZAZU_CA || "FQXXwAZLws6qXgCzG3iRKqDXiLyWPGT2KwyTf6apump";
 
 export const TICKER = "$ZAZU";
 
